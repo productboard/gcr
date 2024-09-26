@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency "google-protobuf", "~> 3.7"
 
-  s.add_development_dependency "grpc", "~> 1.10", ">= 1.2.5"
+  s.add_development_dependency "grpc", "~> 1.66.0", ">= 1.66.0"
   s.add_development_dependency "rspec", "~> 4.28", ">= 4.28.0"
   s.add_development_dependency "rake"
   s.add_development_dependency "pry"
