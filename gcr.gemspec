@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/mastahyeti/gcr"
   s.licenses = ["MIT"]
 
-  s.add_runtime_dependency "google-protobuf", "~> 4.28"
+  s.add_runtime_dependency "google-protobuf"
 
-  s.add_development_dependency "grpc", "~> 1.66.0", ">= 1.66.0"
-  s.add_development_dependency "rspec", "~> 4.28", ">= 4.28.0"
+  s.add_development_dependency "grpc"
+  s.add_development_dependency "rspec"
   s.add_development_dependency "rake"
   s.add_development_dependency "pry"
 
